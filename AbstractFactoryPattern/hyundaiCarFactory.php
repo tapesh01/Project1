@@ -1,5 +1,9 @@
 <?php
 
+include_once('abstractMyCar.php');
+
+class abstractCar extends abstractMyCar {
+
 private $make;
 private $year;
 
@@ -12,6 +16,6 @@ function getMake(){return $this->make;}
 
 function getYear(){return $this->year;}
 
-
+}
 
 ?>
